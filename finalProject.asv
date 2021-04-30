@@ -1,7 +1,10 @@
 function [] = finalProject()
     global gui;
- gui.fig = figure('numbertitle', 'off', 'name', 'Van Der Wales Equation'); 
- gui.
+ gui.fig = figure('numbertitle', 'off', 'name', 'Van Der Waals Equation'); 
+ gui.editbox = uicontrol('style','slider');
+ gui.editbox = uicontrol('style','edit');
+ gui.editbox = uicontrol('style','text','slide to your temperature);
     
 
 end
+
